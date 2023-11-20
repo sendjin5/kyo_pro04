@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.ed.haebeop.persistence.DatMapper">
+
+    <!-- 댓글 목록 -->
+    <select id="datList" resultType="kr.ed.haebeop.domain.Dat">
+        select * from dat where par=#{par} order by regdate desc
+    </select>
+    <insert id="insert">
+        insert into dat values (default, #{author}, #{content}, default, #{par})
+    </insert>
+    <update id="update">
+        update dat set title=#{title}, content=#{content} where dno=#{dno}
+    </update>
+    <delete id="delete">
+        delete from dat where dno=#{dno}
+    </delete>
+</mapper>

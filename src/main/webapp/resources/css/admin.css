@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.navigation.admin {border-bottom:none!important;}
+.navigation.admin .header-top {background-color:#ffc800!important;}
+.header-top-right > a {color:#fff!important;line-height:45px;}
+
+.admin_contents_area {display: flex; min-height:96vh;}
+.admin_contents_area .container.contents_area {margin-top:5rem;}
+.admin_contents_area .container.contents_area2 {margin-top:1rem;}
+
+#editSubmit {display:none;}
+.answer_area {background-color:#fff!important;border-radius:5px;}
+
+.vote_li.box {border:4px solid #fff;}
+.vote_li.box.check {border:4px solid #ffc800;}
+
+.dat_area {position:relative;}
+.dat_area > p, .dat_area > a {display:inline-block;vertical-align:top;}
+.dat_area > a {vertical-align:middle;}
+.dat_area .dat_content {width:calc(100% - 260px);}

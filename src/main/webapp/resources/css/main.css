@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* 본문 영역 스타일 */
+.sl-btn-box .btn { display:block; width: 48px; height: 48px; font-size:32px;color:#fff; background-color:#333; text-align: center; line-height: 48px;font-weight: 700; cursor:pointer; position:absolute; left:100px; }
+.sl-btn-box .btn.next { top:100px; }
+.sl-btn-box .btn.prev { top:148px; }
+
+.column, .news_area {position:relative;}
+.notice_area ul {box-sizing:border-box;border-bottom:1px solid #333;}
+.subtitle.noticeTitle {border-bottom:3px dashed #333;padding-bottom:20px;}
+.section .delete.is-large {transform:rotate(45deg);position:absolute;right:5%;}
+.section .delete.is-large.news {right:4%;}
+
+.board_con {margin:0 0 50px;height:240px;}
+.board_con .no_date {width:100%;height:240px;text-align:center;line-height:240px}
+.board_con li {box-sizing:border-box;border-bottom:1px solid #333;position:relative;}
+.board_con li a {display:block;width:100%;line-height:28px;font-size:18px;padding:14px 0;}
+.board_con li .date {position:absolute;right:0;line-height:28px;font-size:16px;top:50%;margin-top:-14px;}
